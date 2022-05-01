@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: yellow;
+    margin: 15vh auto;
+    font-size: calc(5vw + 20px);
+    text-shadow: 0 0 10px black,
+                 0 0 10px black;
+}
+
+.container {
+    background-color: white;
+    width: 90vw;
+    height: 100px;
+    margin: 0 auto;
+}
