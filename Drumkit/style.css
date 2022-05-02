@@ -22,12 +22,31 @@ main {
     margin: 15vh auto;
     font-size: calc(5vw + 20px);
     text-shadow: 0 0 10px black,
+                 0 0 10px black,
                  0 0 10px black;
 }
 
 .container {
-    background-color: white;
     width: 90vw;
     height: 100px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.key{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000BB;
+    color: white;
+    font-size: calc(3vw + 20px);
+    border: 3px  solid white;
+    user-select: none;
+    cursor: pointer;
 }
